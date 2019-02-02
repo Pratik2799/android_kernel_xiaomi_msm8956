@@ -1,7 +1,7 @@
 KERNEL_DIR=$PWD
 Anykernel_DIR=$KERNEL_DIR/AnyKernel2/
 DATE=$(date +"%d%m%Y")
-KERNEL_NAME="Escrima-X25-Kamui-LightningBlade-PurpleLightning"
+KERNEL_NAME="Candy"
 DEVICE="-kenzo-"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE"
 
@@ -14,9 +14,9 @@ rm -rf arch/arm64/boot/Image.gz
 rm -rf arch/arm64/boot/Image.gz-dtb
 
 # Export few variables
-export KBUILD_BUILD_USER="AmolAmrit"
-export KBUILD_BUILD_HOST="Nightwing"
-export CROSS_COMPILE=/home/amol/ex/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export KBUILD_BUILD_USER="Pratik Pithore"
+export KBUILD_BUILD_HOST="DeathNote_27"
+export CROSS_COMPILE=/home/p_pratik/toolchain/bin/aarch64-linux-android-
 export ARCH="arm64"
 export USE_CCACHE=1
 
